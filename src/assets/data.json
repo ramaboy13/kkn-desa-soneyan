@@ -1,0 +1,336 @@
+{
+  "package": "PAKET A",
+  "recipes": [
+    {
+      "recipe_name": "Sate Pentul",
+      "ingredients": [
+        { "ingredient": "Daging Sapi Giling/cincang", "quantity": "50 gr" },
+        { "ingredient": "Telur Ayam", "quantity": "60 gr (1 butir)" },
+        { "ingredient": "Bawang Bombai", "quantity": "1 Buah" },
+        { "ingredient": "Bawang Putih", "quantity": "2 Siung" },
+        { "ingredient": "Tepung Tapioka", "quantity": "5 gr" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Merica", "quantity": "Secukupnya" },
+        { "ingredient": "Pala", "quantity": "Secukupnya" },
+        { "ingredient": "Mentega", "quantity": "10 gr" },
+        { "ingredient": "Bumbu (bawang putih dll)", "quantity": "" }
+      ],
+      "instructions": "1. Campur daging sapi, tepung tapioka, bawang bombai, bawang putih, garam, merica, pala, dan telur. Kemudian aduk hingga rata.\n2. Bentuk menjadi bulatan lonjong seperti pentul.\n3. Kukus kemudian tusuki dengan tusukan sate.\n4. Olesi wajan grill dengan mentega, bakar sate pentul hingga kecoklatan."
+    },
+    {
+      "recipe_name": "Udang Panir",
+      "ingredients": [
+        { "ingredient": "Daging Udang", "quantity": "150 gr" },
+        { "ingredient": "Telur Ayam", "quantity": "60 gr (1 butir)" },
+        { "ingredient": "Tepung Panir", "quantity": "100 gr" },
+        { "ingredient": "Tahu", "quantity": "75 gr" },
+        { "ingredient": "Seledri", "quantity": "5 gr" },
+        { "ingredient": "Tepung Terigu", "quantity": "50 gr" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Merica bubuk", "quantity": "Secukupnya" },
+        { "ingredient": "Minyak Goreng", "quantity": "25 ml" },
+        { "ingredient": "Bawang Putih", "quantity": "3 Siung" }
+      ],
+      "instructions": "1. Campur daging udang, tahu, dan seledri dengan bawang putih, garam, dan merica. Aduk hingga rata.\n2. Masukkan ke dalam loyang, kukus selama 15 menit. Dinginkan dan potong sesuai selera.\n3. Kocok telur dalam mangkok kecil.\n4. Balur potongan dengan tepung panir setelah dicelupkan ke dalam kocokan telur. Ulangi satu kali lagi.\n5. Panaskan minyak, lalu goreng hingga matang dan kecoklatan."
+    },
+    {
+      "recipe_name": "Nugget Sayuran",
+      "ingredients": [
+        { "ingredient": "Ubi jalar merah", "quantity": "100 gr" },
+        { "ingredient": "Telur ayam", "quantity": "60 gr (1 butir)" },
+        { "ingredient": "Daging ayam", "quantity": "50 gr" },
+        { "ingredient": "Roti tawar", "quantity": "20 gr (1 lembar)" },
+        { "ingredient": "Bayam", "quantity": "15 gr" },
+        { "ingredient": "Wortel", "quantity": "15 gr" },
+        { "ingredient": "Minyak", "quantity": "10 gr" },
+        { "ingredient": "Tepung panir", "quantity": "15 gr" },
+        { "ingredient": "Bawang putih", "quantity": "Secukupnya" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Bersihkan ubi jalar, wortel, dan bayam, kemudian parut kasar.\n2. Campurkan bayam, wortel, ubi, telur, daging ayam, roti tawar, bawang putih, dan garam hingga rata.\n3. Kukus adonan hingga matang, potong sesuai selera, lalu celupkan ke dalam kocokan telur.\n4. Lumuri dengan tepung panir.\n5. Goreng nugget dalam minyak panas hingga kecoklatan dan matang. Sajikan selagi hangat."
+    },
+    {
+      "recipe_name": "Puding Roti Tawar Santan + Telur",
+      "ingredients": [
+        { "ingredient": "Roti tawar", "quantity": "4 lembar" },
+        { "ingredient": "Telur ayam", "quantity": "1 butir" },
+        { "ingredient": "Santan kental", "quantity": "100 ml" },
+        { "ingredient": "Tepung terigu", "quantity": "20 gr" },
+        { "ingredient": "Gula pasir", "quantity": "1 sdt" },
+        { "ingredient": "Margarin", "quantity": "20 gr" }
+      ],
+      "instructions": "1. Siapkan loyang dan olesi dengan mentega.\n2. Kocok santan, telur, dan margarin cair hingga rata.\n3. Masukkan potongan roti tawar dan tepung terigu, aduk rata.\n4. Tata adonan di loyang yang telah diolesi margarin.\n5. Kukus selama 30 menit hingga matang."
+    },
+    {
+      "recipe_name": "Sate Bola Ikan",
+      "ingredients": [
+        { "ingredient": "Bayam", "quantity": "10 gr" },
+        { "ingredient": "Ikan kembung", "quantity": "20 gr" },
+        { "ingredient": "Susu segar", "quantity": "20 ml" },
+        { "ingredient": "Tepung terigu", "quantity": "10 gr" },
+        { "ingredient": "Tepung panir", "quantity": "10 gr" },
+        { "ingredient": "Telur ayam", "quantity": "30 gr" },
+        { "ingredient": "Margarine", "quantity": "5 gr" },
+        { "ingredient": "Minyak", "quantity": "5 gr" },
+        { "ingredient": "Bawang Putih", "quantity": "1 siung" },
+        { "ingredient": "Daun bawang", "quantity": "5 gr" },
+        { "ingredient": "Gula pasir", "quantity": "1 sdt" },
+        { "ingredient": "Garam", "quantity": "1 sdt" }
+      ],
+      "instructions": "1. Panaskan margarin, tumis bawang putih hingga harum. Masukkan tepung terigu, aduk rata.\n2. Tambahkan susu cair, aduk hingga menjadi adonan kental.\n3. Masukkan daging ikan, bayam, dan daun bawang. Masak hingga kalis dan matang.\n4. Bentuk adonan menjadi bulatan, celupkan ke dalam telur, lalu lumuri dengan tepung panir.\n5. Goreng hingga kecoklatan dan matang. Tusuk setiap bola dengan tusukan sate. Sajikan dengan saus tomat."
+    },
+    {
+      "recipe_name": "Dadar Gulung Telur, Tempe, Daging",
+      "ingredients": [
+        { "ingredient": "Telur ayam", "quantity": "20 gr (dibuat dadar)" },
+        { "ingredient": "Telur dikocok", "quantity": "10 gr" },
+        { "ingredient": "Daging sapi dicincang", "quantity": "10 gr" },
+        { "ingredient": "Wortel", "quantity": "25 gr" },
+        { "ingredient": "Tempe", "quantity": "10 gr" },
+        { "ingredient": "Kecap manis", "quantity": "10 gr" },
+        { "ingredient": "Lada halus", "quantity": "½ sdt" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Minyak", "quantity": "10 gr" }
+      ],
+      "instructions": "1. Tempe dikukus kemudian dihaluskan.\n2. Wortel dibersihkan, parut kasar.\n3. Campurkan daging, tempe, wortel, kecap, lada, dan garam dengan telur yang sudah dikocok, setelah diaduk rata kemudian tuangkan ke atas telur dadar yang sudah dibuat. Gulung rapi.\n4. Kukus gulungan telur selama 15 menit. Angkat dan dinginkan lalu dipotong-potong sebelum digoreng.\n5. Angkat dan hidangkan."
+    },
+    {
+      "recipe_name": "Barongko Pisang",
+      "ingredients": [
+        { "ingredient": "Pisang Kepok / Pisang Raja", "quantity": "5 buah" },
+        { "ingredient": "Telur ayam", "quantity": "1 butir" },
+        { "ingredient": "Santan kental", "quantity": "50 ml" },
+        { "ingredient": "Gula aren", "quantity": "1 sdt" },
+        { "ingredient": "Garam", "quantity": "¼ sdt" },
+        { "ingredient": "Daun pisang", "quantity": "Untuk bungkus" }
+      ],
+      "instructions": "1. Kupas pisang dan lumatkan dengan garpu (untuk usia 6 bulan, lumatkan sampai halus).\n2. Kocok lepas telur, lalu masukkan ke dalam pisang yang telah dilumatkan.\n3. Kemudian masukkan santan homemade, untuk balita di atas 1 tahun bisa ditambahkan ¼ sdt garam dan 1 sdt gula jawa / gula aren.\n4. Bungkus dengan daun pisang dan kukus sampai matang kurang lebih 30 menit."
+    },
+    {
+      "recipe_name": "Sumping Waluh",
+      "ingredients": [
+        { "ingredient": "Ubi Cilembu", "quantity": "100 gr" },
+        { "ingredient": "Labu kuning", "quantity": "100 gr" },
+        { "ingredient": "Kelapa agak muda", "quantity": "50 gr" },
+        { "ingredient": "Telur ayam", "quantity": "1 butir" },
+        { "ingredient": "Daun pisang", "quantity": "Untuk bungkus" }
+      ],
+      "instructions": "1. Parut ubi, labu kuning, dan kelapa.\n2. Kocok lepas telur.\n3. Campurkan kocokan telur, parutan ubi, labu kuning, dan kelapa agak muda, aduk rata.\n4. Ambil 2 – 3 sdm adonan, bungkus dengan daun pisang menyerupai pepes.\n5. Kukus kurleb 30 menit hingga matang dan sajikan."
+    },
+    {
+      "recipe_name": "Talam Ubi Abon Ayam",
+      "ingredients": [
+        {
+          "ingredient": "Abon ayam dan abon teri nasi",
+          "quantity": "Secukupnya"
+        },
+        { "ingredient": "Ayam giling/cacah", "quantity": "50 gr" },
+        { "ingredient": "Santan homemade", "quantity": "50 ml" },
+        { "ingredient": "Bawang putih", "quantity": "1 buah" },
+        { "ingredient": "Bawang merah", "quantity": "1 buah" },
+        { "ingredient": "Sereh", "quantity": "1 buah" },
+        { "ingredient": "Kemiri", "quantity": "1 buah" },
+        { "ingredient": "Kunyit", "quantity": "1 cm" },
+        { "ingredient": "Ubi Kuning lumat", "quantity": "125 gr" },
+        {
+          "ingredient": "Tepung beras",
+          "quantity": "100 gr (untuk lapisan kuning)"
+        },
+        {
+          "ingredient": "Tepung beras",
+          "quantity": "30 gr (untuk lapisan putih)"
+        },
+        {
+          "ingredient": "Santan homemade",
+          "quantity": "150 ml (untuk lapisan putih)"
+        },
+        {
+          "ingredient": "Minyak",
+          "quantity": "Secukupnya (untuk olesan cetakan talam)"
+        }
+      ],
+      "instructions": "1. Haluskan bawang putih, bawang merah, kemiri, dan kunyit.\n2. Tumis bumbu dengan minyak, masukkan ayam cacah/giling, tambahkan salam sereh dan santan secukupnya, aduk hingga kuah santan asat, padamkan api.\n3. Lapisan kuning: Campur bahan lapisan kuning dengan whisk hingga rata, kemudian saring adonan dengan saringan kawat supaya tidak ada ubi yang bergerindil. Tuang ke cetakan talam dan kukus 10 menit.\n4. Lapisan putih: Campur bahan lapisan putih hingga rata. Tuang di atas lapisan kuning, kemudian kukus hingga matang.\n5. Tata di piring saji, taburi dengan abon ayam."
+    },
+    {
+      "recipe_name": "Siomay Ayam Udang Ceria",
+      "ingredients": [
+        {
+          "ingredient": "Daging ayam (difillet & dicincang)",
+          "quantity": "100 gr"
+        },
+        { "ingredient": "Udang cincang", "quantity": "100 gr" },
+        { "ingredient": "Air es", "quantity": "50 ml" },
+        { "ingredient": "Tepung tapioka", "quantity": "3 sdm" },
+        { "ingredient": "Tepung terigu", "quantity": "1,5 sdm" },
+        { "ingredient": "Maizena", "quantity": "1 sdm" },
+        { "ingredient": "Baking powder", "quantity": "0,25 sdt" },
+        { "ingredient": "Kulit pangsit", "quantity": "3 lembar" },
+        { "ingredient": "Wortel (dicincang)", "quantity": "1 buah" },
+        { "ingredient": "Telur ayam", "quantity": "1 butir" },
+        { "ingredient": "Garam", "quantity": "1 sdt" },
+        { "ingredient": "Gula pasir", "quantity": "0,5 sdt" },
+        { "ingredient": "Bawang putih", "quantity": "3 siung" },
+        { "ingredient": "Merica", "quantity": "0,25 sdt" }
+      ],
+      "instructions": "1. Campur ayam fillet cincang, udang cincang, telur yang sudah dikocok, wortel cincang, dan semua bumbu. Uleni.\n2. Tuang air es secara perlahan sambil terus diuleni. Kemudian masukkan tepung terigu, tepung tapioka, dan tepung maizena, aduk hingga tercampur rata.\n3. Ambil 1 lembar kulit pangsit, kemudian isi kulit dengan 1 sdm adonan yang telah dibuat, lakukan hingga adonan habis.\n4. Kukus siomay hingga matang."
+    },
+    {
+      "recipe_name": "Muffin Telur Sayur",
+      "ingredients": [
+        { "ingredient": "Telur", "quantity": "4 butir" },
+        {
+          "ingredient": "Sayur (bayam, wortel, tomat, dll)",
+          "quantity": "Sisa-sisa bahan"
+        },
+        { "ingredient": "Ikan", "quantity": "50 gr" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Merica bubuk", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Kocok telur dengan mixer sampai berbuih. Kocok agak lama agar muffin mengembang.\n2. Kukus ikan, ambil dagingnya, kemudian dicincang. Masukkan ke dalam adonan telur.\n3. Campurkan sayur yang sudah dipotong kecil-kecil.\n4. Bumbui dengan garam dan merica secukupnya.\n5. Masukkan dalam cetakan muffin atau bolu kukus, panggang di oven."
+    },
+    {
+      "recipe_name": "Stick Ikan Sayur",
+      "ingredients": [
+        { "ingredient": "Ikan (difillet)", "quantity": "100 gr" },
+        { "ingredient": "Wortel", "quantity": "1 buah" },
+        { "ingredient": "Telur", "quantity": "1 butir" },
+        { "ingredient": "Tepung bumbu", "quantity": "5 sdm" },
+        { "ingredient": "Kangkung", "quantity": "25 gr" },
+        { "ingredient": "Air es", "quantity": "Secukupnya" },
+        { "ingredient": "Minyak", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Campur wortel dan kangkung yang sudah dicincang halus dengan tepung bumbu dan 1 butir telur. Tambahkan air es sedikit demi sedikit sampai adonan mengental.\n2. Masukkan fillet ikan ke dalam adonan, lalu goreng hingga matang.\n3. Siap disajikan."
+    },
+    {
+      "recipe_name": "Mento Daging",
+      "ingredients": [
+        { "ingredient": "Tepung beras", "quantity": "50 gr" },
+        { "ingredient": "Santan kental", "quantity": "Secukupnya" },
+        {
+          "ingredient": "Daging (dicacah atau digiling)",
+          "quantity": "100 gr"
+        },
+        { "ingredient": "Daun pisang", "quantity": "Untuk bungkus" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Gula", "quantity": "Secukupnya" },
+        { "ingredient": "Minyak", "quantity": "Secukupnya" },
+        { "ingredient": "Bawang merah", "quantity": "2 siung" },
+        { "ingredient": "Bawang putih", "quantity": "1 siung" },
+        { "ingredient": "Merica", "quantity": "Secukupnya" },
+        { "ingredient": "Ketumbar", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Masak tepung beras dengan santan secukupnya hingga mengental, lalu diamkan.\n2. Siapkan isian: tumis daging giling bersama bumbu.\n3. Siapkan daun pisang, letakkan bubur tepung beras, kemudian isian, tambahkan lagi bubur tepung beras, dan terakhir santan kental di atasnya.\n4. Bungkus dan kukus hingga matang."
+    },
+    {
+      "recipe_name": "Sempolan Ayam Yummi",
+      "ingredients": [
+        { "ingredient": "Daging ayam", "quantity": "150 gr" },
+        { "ingredient": "Telur", "quantity": "2 butir" },
+        { "ingredient": "Tepung terigu", "quantity": "50 gr" },
+        { "ingredient": "Tepung panir", "quantity": "50 gr" },
+        { "ingredient": "Minyak", "quantity": "Secukupnya" },
+        { "ingredient": "Bawang merah", "quantity": "2 siung" },
+        { "ingredient": "Bawang putih", "quantity": "1 siung" },
+        { "ingredient": "Merica", "quantity": "Secukupnya" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Gula", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Masukkan daging ayam yang telah difillet ke dalam blender. Tambahkan bawang merah & putih, blender hingga rata.\n2. Tambahkan tepung terigu dan bumbu, blender kembali.\n3. Tambahkan 1 butir telur ke dalam adonan. Jika belum kalis dapat ditambahkan air secukupnya.\n4. Panaskan air dalam panci untuk merebus lilitan adonan.\n5. Oleskan tangan dengan minyak goreng. Ambil sedikit adonan, lilitkan pada stick es krim. Lakukan hingga adonan habis. Rebus lilitan hingga mengapung, angkat dan tiriskan.\n6. Panaskan minyak goreng dengan api sedang. Balur sempol kedalam kocokan telur dan panir secara bergantian. Lalu goreng hingga kuning keemasan. Sajikan."
+    },
+    {
+      "recipe_name": "Otak-Otak Ikan",
+      "ingredients": [
+        { "ingredient": "Ikan", "quantity": "250 gr" },
+        { "ingredient": "Telur", "quantity": "1 butir" },
+        { "ingredient": "Tepung terigu", "quantity": "3 sdm" },
+        { "ingredient": "Tepung tapioka", "quantity": "3 sdm" },
+        { "ingredient": "Minyak", "quantity": "Secukupnya" },
+        { "ingredient": "Bawang putih", "quantity": "3 siung" },
+        { "ingredient": "Merica", "quantity": "Secukupnya" },
+        { "ingredient": "Gula", "quantity": "Secukupnya" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Haluskan semua bumbu, lalu campurkan dengan ikan yang telah difillet.\n2. Masukkan tepung terigu dan tepung tapioka ke dalam campuran ikan.\n3. Masukkan telur dan aduk hingga rata.\n4. Bentuk adonan memanjang sesuai selera.\n5. Goreng hingga kuning keemasan."
+    },
+    {
+      "recipe_name": "Nasi Sup Telur Puyuh Bola Tahu Ayam",
+      "ingredients": [
+        { "ingredient": "Nasi putih masak uduk", "quantity": "50 gr" },
+        { "ingredient": "Tahu putih", "quantity": "1 potong kecil" },
+        { "ingredient": "Daging ayam cincang", "quantity": "50 gr" },
+        { "ingredient": "Telur puyuh rebus", "quantity": "4 butir" },
+        { "ingredient": "Wortel, kol, kentang", "quantity": "10 gr (1 sdm)" },
+        { "ingredient": "Tepung tapioka", "quantity": "1 sdm" },
+        { "ingredient": "Seledri", "quantity": "Secukupnya" },
+        { "ingredient": "Daun bawang", "quantity": "Secukupnya" },
+        { "ingredient": "Bawang putih", "quantity": "Secukupnya" },
+        { "ingredient": "Gula", "quantity": "Secukupnya" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Merica", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Rebus air sampai mendidih.\n2. Campurkan tahu, ayam, bumbu halus, garam, gula, dan merica. Haluskan dan tambahkan sedikit tapioka, lalu uleni hingga rata dan bisa dibentuk.\n3. Ambil adonan sebanyak satu sendok teh, bentuk bulat, dan langsung masukkan ke air mendidih.\n4. Lakukan sampai adonan habis. Setelah semua bola-bola tahu ayam mengapung, masukkan wortel dan telur puyuh rebus.\n5. Masukkan garam, gula, merica, serta isian daun bawang dan seledri. Setelah matang, angkat dan sajikan."
+    },
+    {
+      "recipe_name": "Lapis Ayam Tahu Mie",
+      "ingredients": [
+        { "ingredient": "Daging ayam cincang", "quantity": "100 gr" },
+        { "ingredient": "Tahu", "quantity": "100 gr" },
+        { "ingredient": "Mie kering", "quantity": "50 gr" },
+        { "ingredient": "Telur", "quantity": "1 butir" },
+        { "ingredient": "Wortel", "quantity": "1 buah" },
+        { "ingredient": "Santan kental", "quantity": "Secukupnya" },
+        { "ingredient": "Tepung maizena", "quantity": "½ sdm" },
+        { "ingredient": "Bawang putih", "quantity": "2 siung" },
+        { "ingredient": "Gula", "quantity": "Secukupnya" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Tumis bawang putih, lalu masukkan ayam cincang, wortel, dan tahu yang sudah dihaluskan.\n2. Masukkan santan kental, telur yang sudah dikocok, bumbu, dan tepung maizena yang sudah dicairkan. Aduk rata dan masak hingga ½ matang.\n3. Rebus mie dan tiriskan.\n4. Siapkan loyang atau cetakan, kemudian tata bahan dengan lapisan bawah adonan ayam tahu, lapisan tengah mie, dan lapisan atas adonan ayam tahu.\n5. Kukus adonan hingga matang. Iris dan sajikan."
+    },
+    {
+      "recipe_name": "Lele Omelet Roll",
+      "ingredients": [
+        { "ingredient": "Daging lele", "quantity": "200 gr" },
+        { "ingredient": "Telur ayam", "quantity": "3 butir" },
+        { "ingredient": "Wortel", "quantity": "1 buah" },
+        { "ingredient": "Bayam", "quantity": "Secukupnya" },
+        { "ingredient": "Daun bawang", "quantity": "Secukupnya" },
+        { "ingredient": "Minyak", "quantity": "Secukupnya" },
+        { "ingredient": "Merica", "quantity": "Secukupnya" },
+        { "ingredient": "Gula", "quantity": "Secukupnya" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Kukus lele, ambil dagingnya, dan cincang.\n2. Potong kecil atau cincang wortel, bayam, dan daun bawang.\n3. Kocok telur dalam mangkuk. Masukkan wortel, bayam, daun bawang, dan bumbu, lalu aduk merata.\n4. Panaskan wajan yang telah diberi sedikit minyak, lalu masukkan satu centong adonan telur.\n5. Letakkan lele cincang pada salah satu ujung wajan, gulung hingga memadat, dan geser pada salah satu sisi wajan.\n6. Tuang kembali adonan pada sisi wajan lainnya, lalu gulung kembali. Lakukan terus sampai adonan telur habis.\n7. Angkat, potong-potong, dan sajikan."
+    },
+    {
+      "recipe_name": "Sandwich Telur",
+      "ingredients": [
+        { "ingredient": "Roti tawar", "quantity": "2 lembar" },
+        { "ingredient": "Telur", "quantity": "1 butir" },
+        { "ingredient": "Daging ayam cincang", "quantity": "100 gr" },
+        { "ingredient": "Tomat", "quantity": "1 buah" },
+        { "ingredient": "Margarin", "quantity": "Secukupnya" },
+        { "ingredient": "Bawang putih", "quantity": "1 siung" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" }
+      ],
+      "instructions": "1. Rebus ayam sampai lunak, lalu cincang.\n2. Giling roti dan sisihkan.\n3. Lelehkan margarin, lalu tumis bawang putih dan ayam sampai harum.\n4. Letakkan tumisan di atas roti, beri potongan tomat, lalu tutup kembali dengan roti yang lain.\n5. Oleskan margarin di atas roti, dan panggang sebentar di atas teflon."
+    },
+    {
+      "recipe_name": "Perkedel Ikan",
+      "ingredients": [
+        { "ingredient": "Roti tawar", "quantity": "1 lembar" },
+        { "ingredient": "Susu cair", "quantity": "25 ml" },
+        {
+          "ingredient": "Daging ikan segar tanpa tulang",
+          "quantity": "200 gr"
+        },
+        { "ingredient": "Tahu", "quantity": "½ buah" },
+        { "ingredient": "Telur ayam", "quantity": "½ butir" },
+        { "ingredient": "Buncis", "quantity": "25 gr" },
+        { "ingredient": "Wortel", "quantity": "25 gr" },
+        { "ingredient": "Garam", "quantity": "Secukupnya" },
+        { "ingredient": "Merica", "quantity": "½ sdt" }
+      ],
+      "instructions": "1. Rendam roti tawar dalam susu cair.\n2. Campurkan ikan, telur, tahu, dan roti yang telah direndam susu. Haluskan dengan blender hingga halus dan tercampur rata.\n3. Tambahkan buncis dan wortel, serta bumbu, lalu aduk rata.\n4. Ambil sedikit adonan, buat bulatan sedang sesuai porsi, kemudian pipihkan.\n5. Goreng dalam minyak panas hingga matang dan kecokelatan.\n6. Angkat dan sajikan."
+    }
+  ]
+}
