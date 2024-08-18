@@ -1,32 +1,36 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, ref } from 'vue'
 
-const recipes = ref([]);
-const displayedRecipes = ref(6); // Jumlah resep yang ditampilkan pertama kali
-const selectedRecipe = ref(null);
-const showModal = ref(false);
+const recipes = ref([])
+const displayedRecipes = ref(6) // Jumlah resep yang ditampilkan pertama kali
+const selectedRecipe = ref(null)
+const showModal = ref(false)
 
 onMounted(async () => {
   try {
-    const response = await fetch("/src/assets/data.json");
-    const data = await response.json();
-    recipes.value = data.recipes;
+    const response = await fetch('/src/assets/data.json')
+    const data = await response.json()
+    recipes.value = data.recipes
   } catch (error) {
-    console.error("Error fetching recipes:", error);
+    console.error('Error fetching recipes:', error)
   }
-});
+})
 
 function openModal(recipe) {
-  selectedRecipe.value = recipe;
-  showModal.value = true;
+  selectedRecipe.value = recipe
+  showModal.value = true
 }
 
 function closeModal() {
-  showModal.value = false;
+  showModal.value = false
 }
 
 function showMore() {
-  displayedRecipes.value = recipes.value.length; // Tampilkan semua resep
+  displayedRecipes.value = recipes.value.length // Tampilkan semua resep
+}
+
+function showLess() {
+  displayedRecipes.value = 6 // Kembalikan jumlah resep yang ditampilkan ke 6
 }
 </script>
 
@@ -130,6 +134,10 @@ function showMore() {
           >
             Show More
           </button>
+
+          <button v-else @click="showLess" class="btn btn-primary btn-lg">
+            Show Less
+          </button>
         </div>
 
         <div v-if="showModal" class="modal">
@@ -160,7 +168,7 @@ function showMore() {
 
 <style scoped>
 * {
-  font-family: "inter", sans-serif;
+  font-family: 'inter', sans-serif;
   scroll-behavior: smooth;
 }
 .recipe-list {
