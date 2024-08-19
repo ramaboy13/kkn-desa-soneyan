@@ -27,3 +27,15 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Format Files
+
+```sh
+npm run format
+```
+
+### Lint and Fix Files
+
+```sh
+npm run lint
+```
