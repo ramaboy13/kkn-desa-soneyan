@@ -1,3 +1,4 @@
+
 * {
   font-family: 'inter', sans-serif;
   scroll-behavior: smooth;
@@ -81,6 +82,4 @@ button:hover {
   .main-image {
     width: 276px;
     height: auto;
-    margin-left: 50px;
-  }
-}
+    margin-left: 50px;}}
