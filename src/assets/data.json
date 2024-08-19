@@ -3,7 +3,7 @@
   "recipes": [
     {
       "recipe_name": "Sate Pentul",
-      "image": "/src/assets/img/sate-pentul.jpg",
+      "image": "/public/img/sate-pentul.jpg",
       "ingredients": [
         { "ingredient": "Daging Sapi Giling/cincang", "quantity": "50 gr" },
         { "ingredient": "Telur Ayam", "quantity": "60 gr (1 butir)" },
@@ -20,7 +20,7 @@
     },
     {
       "recipe_name": "Udang Panir",
-      "image": "/src/assets/img/udang-panir.jpg",
+      "image": "/public/img/udang-panir.jpg",
       "ingredients": [
         { "ingredient": "Daging Udang", "quantity": "150 gr" },
         { "ingredient": "Telur Ayam", "quantity": "60 gr (1 butir)" },
@@ -37,7 +37,7 @@
     },
     {
       "recipe_name": "Nugget Sayuran",
-      "image": "/src/assets/img/nugget-sayuran.jpg",
+      "image": "/public/img/nugget-sayuran.jpg",
       "ingredients": [
         { "ingredient": "Ubi jalar merah", "quantity": "100 gr" },
         { "ingredient": "Telur ayam", "quantity": "60 gr (1 butir)" },
@@ -54,7 +54,7 @@
     },
     {
       "recipe_name": "Puding Roti Tawar Santan + Telur",
-      "image": "/src/assets/img/puding-roti.jpg",
+      "image": "/public/img/puding-roti.jpg",
       "ingredients": [
         { "ingredient": "Roti tawar", "quantity": "4 lembar" },
         { "ingredient": "Telur ayam", "quantity": "1 butir" },
