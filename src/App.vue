@@ -37,9 +37,7 @@ function showLess() {
 <template>
   <main>
     <!--Home Section-->
-    <section
-      class="py-5 min-vh-100 d-flex align-items-center position-relative"
-    >
+    <section class="py-5 min-vh-100 d-flex align-items-center position-relative">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-7">
@@ -49,8 +47,8 @@ function showLess() {
                 <span class="text-primary">Bootstrap</span>
               </h1>
               <p class="lead py-3 py-md-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                feugiat erat quis pulvinar consectetur adipiscing elit semper.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat quis
+                pulvinar consectetur adipiscing elit semper.
               </p>
               <a
                 class="mx-auto bg-primary text-white d-flex align-items-center justify-content-center rounded-circle"
@@ -97,15 +95,15 @@ function showLess() {
             <span class="text-muted">Read More</span>
             <h2 class="display-5 fw-bold">Our Blog</h2>
             <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
             </p>
           </div>
         </div>
         <div class="row gy-4">
           <div
             class="col-md-4"
-            v-for="(recipe, index) in recipes.slice(0, displayedRecipes)"
+            v-for="recipe in recipes.slice(0, displayedRecipes)"
             :key="recipe.recipe_name"
             @click="openModal(recipe)"
           >
@@ -116,11 +114,10 @@ function showLess() {
                 {{ recipe.recipe_name }}
               </h2>
               <p class="mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum congue risus sit amet dictum malesuada. Vestibulum
-                viverra iaculis turpis, vitae varius lectus imperdiet at. Sed
-                ultrices, ante vitae maximus laoreet, magna quam tincidunt ex,
-                non faucibus justo dui commodo libero.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue risus sit
+                amet dictum malesuada. Vestibulum viverra iaculis turpis, vitae varius lectus
+                imperdiet at. Sed ultrices, ante vitae maximus laoreet, magna quam tincidunt ex, non
+                faucibus justo dui commodo libero.
               </p>
             </div>
           </div>
@@ -135,9 +132,7 @@ function showLess() {
             Show More
           </button>
 
-          <button v-else @click="showLess" class="btn btn-primary btn-lg">
-            Show Less
-          </button>
+          <button v-else @click="showLess" class="btn btn-primary btn-lg">Show Less</button>
         </div>
 
         <div v-if="showModal" class="modal">
@@ -147,10 +142,7 @@ function showLess() {
             <div class="ingredients">
               <strong>Bahan-bahan:</strong>
               <ul>
-                <li
-                  v-for="ingredient in selectedRecipe.ingredients"
-                  :key="ingredient.ingredient"
-                >
+                <li v-for="ingredient in selectedRecipe.ingredients" :key="ingredient.ingredient">
                   {{ ingredient.ingredient }}: {{ ingredient.quantity }}
                 </li>
               </ul>
