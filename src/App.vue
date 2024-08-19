@@ -27,17 +27,7 @@ import FooterApp from './components/FooterApp.vue'
                 class="mx-auto bg-primary text-white d-flex align-items-center justify-content-center rounded-circle"
                 href=""
                 style="width: 60px; height: 60px"
-                ><svg
-                  class="bi bi-play-fill"
-                  fill="currentColor"
-                  height="24"
-                  viewbox="0 0 16 16"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-                  ></path></svg
+                ><i class="bi bi-play-fill"></i
               ></a>
             </div>
           </div>
@@ -45,18 +35,7 @@ import FooterApp from './components/FooterApp.vue'
         <a
           class="position-absolute bottom-0 start-50 translate-middle text-primary"
           href="#scrollToContent"
-          ><svg
-            class="bi bi-arrow-down"
-            fill="currentColor"
-            height="32"
-            viewbox="0 0 16 16"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-              fill-rule="evenodd"
-            ></path></svg
+          ><i class="bi bi-arrow-down"></i
         ></a>
       </div>
     </section>
