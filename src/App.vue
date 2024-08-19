@@ -1,106 +1,101 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, ref } from 'vue'
 
-const recipes = ref([]);
-const selectedRecipe = ref(null);
-const showModal = ref(false);
-const initialDisplayCount = ref(3); // Jumlah awal resep yang ditampilkan
-const displayedRecipes = ref(initialDisplayCount.value);
+const recipes = ref([])
+const selectedRecipe = ref(null)
+const showModal = ref(false)
+const initialDisplayCount = ref(3) // Jumlah awal resep yang ditampilkan
+const displayedRecipes = ref(initialDisplayCount.value)
 
 onMounted(async () => {
   try {
-    const response = await fetch("/src/assets/data.json");
-    const data = await response.json();
-    recipes.value = data.recipes;
+    const response = await fetch('/src/assets/data.json')
+    const data = await response.json()
+    recipes.value = data.recipes
   } catch (error) {
-    console.error("Error fetching recipes:", error);
+    console.error('Error fetching recipes:', error)
   }
-});
+})
 
 function openModal(recipe) {
-  selectedRecipe.value = recipe;
-  showModal.value = true;
+  selectedRecipe.value = recipe
+  showModal.value = true
 }
 
 function closeModal() {
-  showModal.value = false;
+  showModal.value = false
 }
 
 function showMore() {
-  displayedRecipes.value = recipes.value.length; // Tampilkan semua resep
+  displayedRecipes.value = recipes.value.length // Tampilkan semua resep
 }
 
 function showLess() {
-  displayedRecipes.value = initialDisplayCount.value; // Kembali ke jumlah awal resep yang ditampilkan
+  displayedRecipes.value = initialDisplayCount.value // Kembali ke jumlah awal resep yang ditampilkan
 }
 </script>
 
 <template>
   <main>
     <!--Home Section-->
-    <section
-      class="py-5 min-vh-100 d-flex align-items-center position-relative"
-    >
+    <section class="py-5 home">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="text-center">
-              <h1 class="display-3 fw-bold">
-                For Quick Designing, there is
-                <span class="text-primary">Bootstrap</span>
-              </h1>
-              <p class="lead py-3 py-md-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                feugiat erat quis pulvinar consectetur adipiscing elit semper.
+        <div class="row align-items-center mt-3">
+          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+            <h4 class="display-3 fw-bold">
+              Halo, selamat datang di <span class="main-span">Healthy Food</span>
+            </h4>
+            <p class="lead my-3">
+              Kami menawarkan berbagai rekomendasi makanan sehat yang efektif dalam mencegah
+              stunting, rekomendasi dirancang dengan cermat oleh Posyandu dan ahli gizi.
+            </p>
+            <a class="btn btn-lg button mt-2" href="#tentangkami">Selengkapnya</a>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <img alt="" class="main-image img-fluid" src="../public/img/makanan.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section Tentang Kami-->
+    <section class="py-5 mt-5" id="tentangkami">
+      <div class="container">
+        <div class="row align-items-center gx-4">
+          <div class="col-md-5">
+            <div class="ms-md-2 ms-lg-5" data-aos="fade-down">
+              <img class="img-fluid rounded-3" src="../public/img/makanan1.png" />
+            </div>
+          </div>
+          <div class="col-md-6 offset-md-1">
+            <div class="ms-md-2 ms-lg-5" data-aos="fade-up">
+              <span class="text-muted">Baca Juga</span>
+              <h2 class="display-5 fw-bold">Tentang Kami</h2>
+              <p class="lead" style="text-align: justify">
+                Healthy Food hadir untuk memberikan rekomendasi menu makanan dari posyandu yang
+                efektif mencegah stunting. Setiap menu dilengkapi bahan-bahan dan cara memasaknya
+                agar mudah dipraktikkan.
               </p>
-              <a
-                class="mx-auto bg-primary text-white d-flex align-items-center justify-content-center rounded-circle"
-                href=""
-                style="width: 60px; height: 60px"
-                ><svg
-                  class="bi bi-play-fill"
-                  fill="currentColor"
-                  height="24"
-                  viewbox="0 0 16 16"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-                  ></path></svg
-              ></a>
+              <p class="lead mb-0" style="text-align: justify">
+                Kami juga memastikan resep diawasi oleh ahli gizi, sehingga memenuhi kebutuhan
+                nutrisi harian anak dan keluarga untuk mendukung tumbuh kembang optimal.
+              </p>
             </div>
           </div>
         </div>
-        <a
-          class="position-absolute bottom-0 start-50 translate-middle text-primary"
-          href="#scrollToContent"
-          ><svg
-            class="bi bi-arrow-down"
-            fill="currentColor"
-            height="32"
-            viewbox="0 0 16 16"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-              fill-rule="evenodd"
-            ></path></svg
-        ></a>
       </div>
     </section>
 
     <!--Section Menu Makanan-->
-    <section class="py-5">
+    <section class="py-5" id="menumakanan">
       <div class="container">
         <div class="row justify-content-center text-center mb-4 mb-md-5">
           <div class="col-xl-9 col-xxl-8">
             <span class="text-muted">Rekomendasi</span>
             <h2 class="display-5 fw-bold">Menu Makanan Sehat</h2>
             <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Berikut ini kami rekomendasikan makanan sehat yang efektif dalam mencegah stunting
+              ilengkapi dengan panduan bahan-bahan dan cara memasaknya.
             </p>
           </div>
         </div>
@@ -112,34 +107,30 @@ function showLess() {
             @click="openModal(recipe)"
           >
             <a href="javascript:void(0)" class="text-decoration-none">
-              <div class="card border-0 bg-light-subtle shadow-lg p-2">
+              <div class="card border-0 bg-light-subtle shadow-lg rounded">
                 <img
                   :src="recipe.image"
                   :alt="recipe.recipe_name"
-                  class="img-fluid rounded"
+                  class="img-fluid rounded-top-1"
                   style="width: 100%; height: 300px"
                 />
                 <div class="card-body p-0 text-center mt-4">
-                  <h5 class="text-dark text-decoration-none">
+                  <h5 class="text-dark text-decoration-none fw-bolder">
                     {{ recipe.recipe_name }}
                   </h5>
-                  <p class="mt-3 text-primary">Lihat resep menu selengkapnya</p>
+                  <p class="mt-3" style="color: #349d63">Lihat resep makanan selengkapnya -></p>
                 </div>
               </div>
             </a>
           </div>
         </div>
         <div class="text-center mt-4">
-          <button
-            v-if="displayedRecipes < recipes.length"
-            class="btn btn-primary"
-            @click="showMore"
-          >
+          <button v-if="displayedRecipes < recipes.length" class="btn button" @click="showMore">
             Show More
           </button>
           <button
             v-if="displayedRecipes > initialDisplayCount"
-            class="btn btn-secondary ms-2"
+            class="btn button ms-2"
             @click="showLess"
           >
             Show Less
@@ -152,7 +143,7 @@ function showLess() {
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">{{ selectedRecipe.recipe_name }}</h5>
+              <h5 class="modal-title fw-bolder fs-4">{{ selectedRecipe.recipe_name }}</h5>
               <button
                 type="button"
                 class="btn-close"
@@ -164,10 +155,7 @@ function showLess() {
               <div class="ingredients">
                 <strong>Bahan-bahan:</strong>
                 <ul>
-                  <li
-                    v-for="ingredient in selectedRecipe.ingredients"
-                    :key="ingredient.ingredient"
-                  >
+                  <li v-for="ingredient in selectedRecipe.ingredients" :key="ingredient.ingredient">
                     {{ ingredient.ingredient }}: {{ ingredient.quantity }}
                   </li>
                 </ul>
@@ -183,53 +171,3 @@ function showLess() {
     </section>
   </main>
 </template>
-
-<style scoped>
-* {
-  font-family: "inter", sans-serif;
-  scroll-behavior: smooth;
-}
-
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #42b983;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #358a63;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(176, 176, 176, 0.53);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-content {
-  background-color: rgb(240, 240, 240);
-  padding: 20px;
-  border-radius: 8px;
-  width: 80%;
-  max-width: 600px;
-  position: relative;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 24px;
-  cursor: pointer;
-}
-</style>
