@@ -4,14 +4,14 @@ function MessageToWhatsapp() {
   const namaBelakang = document.getElementById('namaBelakang').value
   const pesan = document.getElementById('pesan').value
 
-  const urlToWhatsapp = `https://wa.me/+6287814146013?text=Halo, nama saya ${namaDepan} ${namaBelakang}. ${pesan}`
+  const urlToWhatsapp = `https://wa.me/6287814146013?text=Halo, nama saya ${namaDepan} ${namaBelakang}. ${pesan}`
 
   window.open(urlToWhatsapp, '_blank')
 }
 </script>
 
 <template>
-  <section class="py-5" id="kontakkami">
+  <section class="" id="kontakkami">
     <div class="container-fluid p-lg-0">
       <div class="row g-0 align-items-center">
         <div class="col-lg-6" data-aos="slide-up">

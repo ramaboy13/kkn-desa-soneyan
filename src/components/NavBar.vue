@@ -9,7 +9,7 @@
       </a>
 
       <button
-        class="navbar-toggler ms-auto"
+        class="navbar-toggler ms-auto my-auto"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -55,6 +55,16 @@ export default {
   mounted() {
     this.checkWindowSize()
     window.addEventListener('resize', this.checkWindowSize)
+
+    document.querySelectorAll('.navbar-nav .nav-item').forEach(function (li) {
+      li.addEventListener('click', function () {
+        // Temukan elemen a di dalam li dan klik
+        const link = li.querySelector('a')
+        if (link) {
+          link.click()
+        }
+      })
+    })
   },
   beforeUnmount() {
     window.removeEventListener('resize', this.checkWindowSize)

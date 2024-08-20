@@ -45,14 +45,14 @@
               <a
                 href="https://www.instagram.com/kknumk_desasoneyanpati/"
                 style="width: 35px; height: 35px"
-                class="text-reset rounded-circle border border-black d-flex justify-content-center align-items-center"
+                class="text-reset rounded-circle d-flex justify-content-center align-items-center social-link"
               >
                 <i class="bi bi-instagram"></i>
               </a>
               <a
                 href="https://www.tiktok.com/@kkn41.desa.soneya"
                 style="width: 35px; height: 35px"
-                class="text-reset rounded-circle border border-black d-flex justify-content-center align-items-center"
+                class="text-reset rounded-circle d-flex justify-content-center align-items-center social-link"
               >
                 <i class="bi bi-tiktok"></i>
               </a>
@@ -66,8 +66,8 @@
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
-      © 2024 Copyright:
+    <div class="text-center py-3" style="background-color: rgba(0, 0, 0, 0.05)">
+      Copyright © 2024. Build with <i class="bi bi-suit-heart-fill text-danger"></i>
     </div>
     <!-- Copyright -->
   </footer>

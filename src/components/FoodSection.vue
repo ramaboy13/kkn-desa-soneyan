@@ -1,5 +1,8 @@
 <script setup>
 import { onMounted, ref } from 'vue'
+import data from '../assets/data.json'
+
+const dataFood = data
 const recipes = ref([])
 const selectedRecipe = ref(null)
 const showModal = ref(false)
@@ -8,8 +11,8 @@ const displayedRecipes = ref(initialDisplayCount.value)
 
 onMounted(async () => {
   try {
-    const response = await fetch('/src/assets/data.json')
-    const data = await response.json()
+    // const response = await fetch('/src/assets/data.json')
+    const data = dataFood
     recipes.value = data.recipes
   } catch (error) {
     console.error('Error fetching recipes:', error)
@@ -35,12 +38,12 @@ function showLess() {
 </script>
 
 <template>
-  <section class="py-5" id="makanansehat">
+  <section class="" id="makanansehat">
     <div class="container">
       <div class="row justify-content-center text-center mb-4 mb-md-5">
         <div class="col-xl-9 col-xxl-8" data-aos="fade-down">
           <span style="color: #349d63">Rekomendasi</span>
-          <h2 class="display-5 fw-bold">Menu <span style="color: #349d63">Makanan</span> Sehat</h2>
+          <h2 class="display-5 fw-bold">Menu Makanan<span style="color: #349d63"> Sehat</span></h2>
           <p class="lead">
             Berikut ini kami rekomendasikan menu makanan dari posyandu yang efektif mencegah
             stunting. Setiap menu dilengkapi bahan-bahan dan cara memasaknya agar mudah
