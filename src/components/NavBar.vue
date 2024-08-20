@@ -18,8 +18,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a to="/" class="nav-link" aria-current="page"> Home </a>
           </li>
