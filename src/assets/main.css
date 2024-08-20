@@ -117,9 +117,6 @@ button:hover {
   .welcome {
     margin-top: 10px;
   }
-  .modal-content {
-    margin-left: 35px;
-  }
   .lead {
     text-align: justify;
   }
@@ -130,5 +127,9 @@ button:hover {
     width: 276px;
     height: auto;
     margin-left: 50px;
+  }
+  .logo-footer {
+    width: 200px;
+    height: auto;
   }
 }

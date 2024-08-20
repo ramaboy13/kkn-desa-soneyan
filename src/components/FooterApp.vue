@@ -8,9 +8,14 @@
       <div class="container text-center text-md-start">
         <!-- Grid row -->
         <div class="row mt-1 mb-3">
-          <div class="col-md-5 col-lg-2 col-xl-2">
+          <div class="col-md-5 col-lg-3 col-xl-2">
             <a href="" class="w-auto">
-              <img src="/public/img/logo.png" alt="logo" width="100%" class="object-fit-sm-cover" />
+              <img
+                src="/public/img/logo.png"
+                alt="logo"
+                width="100%"
+                class="object-fit-sm-cover mb-3 logo-footer"
+              />
             </a>
           </div>
           <!-- Grid column -->

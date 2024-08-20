@@ -3,7 +3,9 @@
     <div class="container">
       <a href="#" class="navbar-brand" :class="absoluteClass">
         <img src="/img/logo.png" alt="logo" width="50" height="50" />
-        <span class="d-none d-sm-inline ps-2 px-auto fs-6 fw-bolder">KKN UMK DESA SENOYAN</span>
+        <span class="d-none d-sm-inline ps-2 px-auto fs-6 fw-bolder display-5"
+          >KKN UMK DESA SONEYAN</span
+        >
       </a>
 
       <button
@@ -28,9 +30,6 @@
           </li>
           <li class="nav-item">
             <a href="#makanansehat" class="nav-link">Menu Makanan</a>
-          </li>
-          <li class="nav-item">
-            <a href="#teamkami" class="nav-link">Tim Kami</a>
           </li>
           <li class="nav-item">
             <a href="#kontakkami" class="nav-link">Kontak Kami</a>

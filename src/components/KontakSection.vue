@@ -1,3 +1,15 @@
+<script setup>
+function MessageToWhatsapp() {
+  const namaDepan = document.getElementById('namaDepan').value
+  const namaBelakang = document.getElementById('namaBelakang').value
+  const pesan = document.getElementById('pesan').value
+
+  const urlToWhatsapp = `https://wa.me/+6287814146013?text=Halo, nama saya ${namaDepan} ${namaBelakang}. ${pesan}`
+
+  window.open(urlToWhatsapp, '_blank')
+}
+</script>
+
 <template>
   <section class="py-5" id="kontakkami">
     <div class="container-fluid p-lg-0">
@@ -11,24 +23,35 @@
               mengetahui lebih lanjut tentang rekomendasi makanan penunjang kenaikan berat badan
               anak, jangan ragu untuk menghubungi kami melalui WhatsApp.
             </p>
-            <form>
+            <form @submit.prevent="MessageToWhatsapp">
               <div class="row">
                 <div class="col-md-12">
                   <div class="mb-3">
-                    <input class="form-control bg-light" placeholder="Your name" type="text" />
+                    <input
+                      class="form-control bg-light"
+                      placeholder="Nama Depan"
+                      type="text"
+                      id="namaDepan"
+                    />
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="mb-3">
-                    <input class="form-control bg-light" placeholder="Your email" type="text" />
+                    <input
+                      class="form-control bg-light"
+                      placeholder="Nama Belakang"
+                      type="text"
+                      id="namaBelakang"
+                    />
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="mb-3">
                     <textarea
                       class="form-control bg-light"
-                      placeholder="Your message"
+                      placeholder="Pesan Anda .."
                       rows="4"
+                      id="pesan"
                     ></textarea>
                   </div>
                 </div>

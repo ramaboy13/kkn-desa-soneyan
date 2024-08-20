@@ -10,7 +10,7 @@
             Kami menawarkan berbagai rekomendasi makanan sehat yang efektif dalam mencegah stunting,
             rekomendasi dirancang dengan cermat oleh Posyandu dan ahli gizi.
           </p>
-          <a class="btn btn-lg button mt-2" href="#tentangkami">Selengkapnya</a>
+          <a class="btn btn-lg button mt-2" href="#faq">Selengkapnya</a>
         </div>
         <div class="col-lg-6" data-aos="fade-left">
           <img alt="" class="main-image img-fluid" src="/public/img/makanan.png" />
