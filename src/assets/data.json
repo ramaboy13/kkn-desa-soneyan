@@ -67,6 +67,7 @@
     },
     {
       "recipe_name": "Sate Bola Ikan",
+      "image": "/public/img/sate-bola.jpg",
       "ingredients": [
         { "ingredient": "Bayam", "quantity": "10 gr" },
         { "ingredient": "Ikan kembung", "quantity": "20 gr" },
@@ -85,6 +86,7 @@
     },
     {
       "recipe_name": "Dadar Gulung Telur, Tempe, Daging",
+      "image": "/public/img/dadar-gulung.jpg",
       "ingredients": [
         { "ingredient": "Telur ayam", "quantity": "20 gr (dibuat dadar)" },
         { "ingredient": "Telur dikocok", "quantity": "10 gr" },
@@ -100,6 +102,7 @@
     },
     {
       "recipe_name": "Barongko Pisang",
+      "image": "/public/img/barongko-pisang.jpg",
       "ingredients": [
         { "ingredient": "Pisang Kepok / Pisang Raja", "quantity": "5 buah" },
         { "ingredient": "Telur ayam", "quantity": "1 butir" },
@@ -112,6 +115,7 @@
     },
     {
       "recipe_name": "Sumping Waluh",
+      "image": "/public/img/sumping-waluh.jpg",
       "ingredients": [
         { "ingredient": "Ubi Cilembu", "quantity": "100 gr" },
         { "ingredient": "Labu kuning", "quantity": "100 gr" },
@@ -123,6 +127,7 @@
     },
     {
       "recipe_name": "Talam Ubi Abon Ayam",
+      "image": "/public/img/talam-ubi.jpg",
       "ingredients": [
         {
           "ingredient": "Abon ayam dan abon teri nasi",
@@ -157,6 +162,7 @@
     },
     {
       "recipe_name": "Siomay Ayam Udang Ceria",
+      "image": "/public/img/somay-ayam.jpg",
       "ingredients": [
         {
           "ingredient": "Daging ayam (difillet & dicincang)",
@@ -180,6 +186,7 @@
     },
     {
       "recipe_name": "Muffin Telur Sayur",
+      "image": "/public/img/mufin-sayur.jpg",
       "ingredients": [
         { "ingredient": "Telur", "quantity": "4 butir" },
         {
@@ -194,6 +201,7 @@
     },
     {
       "recipe_name": "Stick Ikan Sayur",
+      "image": "/public/img/stick-ikan.jpg",
       "ingredients": [
         { "ingredient": "Ikan (difillet)", "quantity": "100 gr" },
         { "ingredient": "Wortel", "quantity": "1 buah" },
@@ -207,6 +215,7 @@
     },
     {
       "recipe_name": "Mento Daging",
+      "image": "/public/img/mento-daging.jpg",
       "ingredients": [
         { "ingredient": "Tepung beras", "quantity": "50 gr" },
         { "ingredient": "Santan kental", "quantity": "Secukupnya" },
@@ -227,6 +236,7 @@
     },
     {
       "recipe_name": "Sempolan Ayam Yummi",
+      "image": "/public/img/sempolan-ayam.jpg",
       "ingredients": [
         { "ingredient": "Daging ayam", "quantity": "150 gr" },
         { "ingredient": "Telur", "quantity": "2 butir" },
@@ -243,6 +253,7 @@
     },
     {
       "recipe_name": "Otak-Otak Ikan",
+      "image": "/public/img/otak-ikan.jpg",
       "ingredients": [
         { "ingredient": "Ikan", "quantity": "250 gr" },
         { "ingredient": "Telur", "quantity": "1 butir" },
@@ -258,6 +269,7 @@
     },
     {
       "recipe_name": "Nasi Sup Telur Puyuh Bola Tahu Ayam",
+      "image": "/public/img/sup-sayur.jpg",
       "ingredients": [
         { "ingredient": "Nasi putih masak uduk", "quantity": "50 gr" },
         { "ingredient": "Tahu putih", "quantity": "1 potong kecil" },
@@ -276,6 +288,7 @@
     },
     {
       "recipe_name": "Lapis Ayam Tahu Mie",
+      "image": "/public/img/lapis-ayam.jpg",
       "ingredients": [
         { "ingredient": "Daging ayam cincang", "quantity": "100 gr" },
         { "ingredient": "Tahu", "quantity": "100 gr" },
@@ -292,6 +305,7 @@
     },
     {
       "recipe_name": "Lele Omelet Roll",
+      "image": "/public/img/lele-omlet.jpg",
       "ingredients": [
         { "ingredient": "Daging lele", "quantity": "200 gr" },
         { "ingredient": "Telur ayam", "quantity": "3 butir" },
@@ -307,6 +321,7 @@
     },
     {
       "recipe_name": "Sandwich Telur",
+      "image": "/public/img/sandwich-telur.jpg",
       "ingredients": [
         { "ingredient": "Roti tawar", "quantity": "2 lembar" },
         { "ingredient": "Telur", "quantity": "1 butir" },
@@ -320,6 +335,7 @@
     },
     {
       "recipe_name": "Perkedel Ikan",
+      "image": "/public/img/perkedel-ikan.jpg",
       "ingredients": [
         { "ingredient": "Roti tawar", "quantity": "1 lembar" },
         { "ingredient": "Susu cair", "quantity": "25 ml" },

@@ -3,7 +3,9 @@
     <div class="container">
       <a href="#" class="navbar-brand" :class="absoluteClass">
         <img src="/img/logo.png" alt="logo" width="50" height="50" />
-        <span class="d-none d-sm-inline ps-2 px-auto fs-6">KKN UMK DESA SENOYAN</span>
+        <span class="d-none d-sm-inline ps-2 px-auto fs-6 fw-bolder display-5"
+          >KKN UMK DESA SONEYAN</span
+        >
       </a>
 
       <button
@@ -18,16 +20,19 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-center" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a to="/" class="nav-link" aria-current="page"> Home </a>
+            <a href="#beranda" class="nav-link" aria-current="page">Beranda</a>
           </li>
           <li class="nav-item">
-            <a to="/about" class="nav-link"> About </a>
+            <a href="#tentangkami" class="nav-link">Tentang Kami</a>
           </li>
           <li class="nav-item">
-            <a to="/contact" class="nav-link"> Contact </a>
+            <a href="#makanansehat" class="nav-link">Menu Makanan</a>
+          </li>
+          <li class="nav-item">
+            <a href="#kontakkami" class="nav-link">Kontak Kami</a>
           </li>
         </ul>
       </div>
