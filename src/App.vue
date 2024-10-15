@@ -9,7 +9,7 @@ import TentangSection from './components/TentangSection.vue'
 </script>
 
 <template>
-  <main>
+  <main class="overflow-hidden">
     <!-- NavBar -->
     <NavBar></NavBar>
 
